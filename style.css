@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&family=Poppins:wght@100;200;300;400&family=Roboto:ital,wght@1,900&family=Source+Code+Pro:wght@200;300;400;500;600;700&display=swap');
+
+:root {
+    --primary-color: #111;
+    --secondary-color: #fff;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    border-radius: 50px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #111; 
+    border-radius: 50px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: rgb(255, 255, 255); 
+    border-radius: 50px;
+  }
+  
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    font-family: 'Source Code Pro', monospace;
+    background-color: var(--primary-color)
+}
+
+.header-box .main-image {
+    width: 7%;
+    border-radius: 50%;
+    height: auto;
+    position: relative;
+    top: 230px;
+    right: 10px;
+}
+
+.header-page-links ul {
+    position: relative;
+    top: 190px;
+    left: 70px;
+}
+
+.header-page-links ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.header-page-links ul li a {
+    font-size: 19px;
+    text-transform: uppercase;
+}
+
+.header-page-links ul li .header-page-span {
+    color: white;
+    opacity: 60%;
+    font-size: 26px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+.header-page-links ul li .header-page-span2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+
+.title-h1 {
+    font-size: 35px;
+    font-weight: bold;
+    text-align: left;
+    position: relative;
+    top: 200px;
+}
+
+.title-h1 .start-span-title {
+    font-size: 40px;
+    color: white;
+    opacity: 60%;
+    font-weight: bold;
+}
+
+.accounts-icons {
+    padding-top: 70px;
+}
+
+.accounts-icons-span {
+    font-size: 30px;
+    color: white;
+    opacity: 60%;
+    font-weight: bold;
+}
+
+.accounts-icons-span2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0px 12px;
+}
+
+.accounts-icons {
+    text-align: right;
+    position: relative;
+    top: 30px;
+    left: 30px;
+    font-size: 25px;
+}
+
+.accounts-icons i {
+    margin-right: 12px;
+}
+
+.theme-box {
+    position: relative;
+    left: 1350px;
+    bottom: 4px;
+    cursor: pointer;;
+}
+
+.about-section-box {
+    position: relative;
+    top: 200px;
+}
+
+.about-texts-titles .about-title {
+    font-size: 32px;
+    font-weight: bold;
+    position: relative;
+    left: 70px;
+    text-transform: uppercase;
+}
+
+.about-texts-titles .about-p {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.about-span-number {
+    position: relative;
+    left: 10px;
+    top: 45px;
+    font-size: 37px;
+    color: white;
+    opacity: 60%;
+    font-weight: bold;
+}
+
+.skills-section-box {
+    text-align: right;
+    position: relative;
+    right: 10px;
+    bottom: 200px;
+}
+
+.skills-title .skills-title-span {
+    color: white;
+    opacity: 60%;
+    font-weight: bold;
+    font-size: 37px;
+    margin-right: 150px;
+    position: relative;
+    top: 45px;
+}
+
+.skills-title-h1 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.skills-pro-lang-title {
+    position: relative;
+    left: 50px;
+    top: 29px;
+}
+
+.pro-lang-icons {
+    margin-top: 50px;
+    position: relative;
+    left: 25px;
+}
+
+.pro-lang-icons i {
+    margin-right: 5px;
+    font-size: 25px;
+}
+
+.html {
+    color: #e34f26;
+}
+
+.css {
+    color: #264de4;
+}
+
+.js {
+    color: #f0db4f;
+}
+
+.php {
+    color: #8993be;
+}
+
+.python {
+    background-image: linear-gradient(-120deg, #ffde57, #4584b6, #646464);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.swift {
+    background-image: linear-gradient(63.65647949577442deg, rgba(243, 72, 104,1) 27.734132632613182%,rgba(242, 71, 104,1) 27.734132632613182%,rgba(158, 0, 236,1) 77.33374771848314%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.skills-lib-frame {
+    position: relative;
+    left: 40px;
+    top: 29px;
+    font-size: 25px;
+}
+
+.skills-lib-frame i {
+    position: relative;
+    right: 40px;
+}
+
+
+.bt {
+    color: #B23CFD;
+    margin-right: 5px;
+}
+
+.rt {
+    color: #acecdc;
+}
+
+.lv {
+    color: #fb503b;
+}
+
+.jq {
+    width: 30px;
+}
+
+.dj {
+    width: 30px;
+}
+
+.node {
+    color: #3c873a;
+}
+
+.skills-other-tools {
+    position: relative;
+    top: 40px;
+}
+
+.skills-other-tools-icons {
+    font-size: 25px;
+}
+
+.fm {
+    margin-right: 5px;
+    color: #f74174;
+}
+
+.git {
+    color: #f34f29;
+}
+
+.pr {
+    width: 30px;
+    border-radius: 50%;
+}
+
+.gray-text {
+    color: gray;
+}
+
+.white-text {
+    color: #fff;
+}
+
+.grad-clr {
+    color: #f35626;
+    background: linear-gradient(42deg, #43cea2, #185a9d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: grad-clr 5s infinite linear;
+
+}
+
+.card-box {
+    border-radius: 18px;
+    background-color: #181818;
+}
+
+.about-card {
+    padding: 10px 50px;
+    width: 900px;
+}
+
+.skills-card {
+    height: 320px;
+    width: 320px;
+    position: relative;
+    left: 1050px;
+    text-align: right;
+}
+
+.skills-programming-lang {
+    width: 420px;
+    position: relative;
+    right: 180px;
+}
+
+
+@-webkit-keyframes grad-clr {
+    from {
+        -webkit-filter: hue-rotate(0deg);
+    }
+
+    to {
+        -webkit-filter: hue-rotate(-360deg);
+    }
+}
+
+.projects-section {
+    text-align: left;
+    position: relative;
+    right: 850px;
+    top: 150px;
+    height: 100vh;
+}
+
+.projects-title {
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.projects-title-span {
+    color: white;
+    opacity: 60%;
+    font-weight: bold;
+    font-size: 37px;
+    margin-right: 20px;
+}
+
+.my-projects-1 {
+    margin-top: 50px;
+    width: 100%;
+    border-radius: 15px;
+    border: 2px solid var(--secondary-color);
+}
+
+.button-num1-1 {
+    background-color: #264de4;
+    color: #fff;
+    padding: 15px 15px;
+    border-radius: 15px;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+.button-num1-1:hover {
+    transition: 0.4s;
+    color: gray;
+    opacity: 0.8;
+}
+
+.button-num1-2 {
+    background-color: #fff;
+    color: #264de4;
+    padding: 15px 15px;
+    border-radius: 15px;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+.button-num1-2:hover {
+    transition: 0.4s;
+    color: #1434b6;
+    opacity: 0.8;
+}
+
+.button-num1-1, .button-num1-2 {
+    position: relative;
+    top: 50px;
+    left: 134px;
+}
+
+.form-contact {
+    display: grid;
+    text-align: center;
+    position: relative;
+    right: 400px;
+}
+
+.form-contact h1 {
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.form-contact span {
+    color: white;
+    opacity: 60%;
+    font-weight: bold;
+    font-size: 37px;
+    margin-right: 20px;
+}
+
+.form-contact label {
+    color: #fff;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.form-contact input {
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: #111;
+    border: 2px solid gray;
+    color: #fff;
+}
+
+.form-contact input::placeholder {
+    color: rgb(175, 173, 173);
+    opacity: 8;
+}
+
+.form-contact button {
+    background-color: rgb(88, 88, 255);
+    color: #fff;
+    border-radius: 18px;
+    padding: 15px 10px;
+    width: 150px;
+    border: none;
+    position: relative;
+    left: 120px;
+    margin-top: 50px;
+}
+
+.form-contact textarea {
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: #111;
+    border: 2px solid gray;
+    color: #fff;
+    resize: none;
+}
+
+
